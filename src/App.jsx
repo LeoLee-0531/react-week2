@@ -7,10 +7,8 @@ const API_PATH = import.meta.env.VITE_API_PATH;
 
 function App() {
   const [account, setAccount] = useState({
-    username: "leo2012.c@gmail.com",
-    password: "08a05a23a",
-    // username: "example@test.com",
-    // password: "example",
+    username: "example@test.com",
+    password: "example",
   });
 
   const [isAuth, setIsAuth] = useState(false);
